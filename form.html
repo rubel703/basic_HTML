@@ -1,0 +1,68 @@
+<!doctype html>
+<html lange="eng">
+  <head>
+    <title> form </title>
+  </head>
+	<body>
+	  <h2>Registration form</h2>
+	  <form>
+	  <div>
+	  <label for="fullname">Full Name:</label>
+	  <input type="text" name="fullname" id="fullname" required>
+	  </div><br></br>
+	  
+	  <div>
+	  <label for="email">Email:</label>
+	  <input type="email" name="email" id="email">
+	  </div><br></br>
+	  
+	  <div>
+	  <label for="password">Password:</label>
+	  <input type="password" name="password" id="password">
+	  </div><br></br>
+	  
+	  <div>
+	  <label for="dob">Date of Birth:</label>
+	  <input type="date" name="dob" id="dob">
+	  </div><br></br>
+	  
+	  <div>
+	  <label for="photo">Choose your photo:</label>
+	  <input type="file" name="photo" id="photo">
+	  </div><br></br>
+	  
+	  <div>
+	  <label for="gender">Gender:</label>
+	  <input type="radio" name="gender" id="gender"value="Male">Male
+	  <input type="radio" name="gender" id="gender"value="female">Female
+	  </div><br></br>
+	  
+	  <div>
+	  <label for="religion">Religion:</label>
+	  <input type="checkbox" name="c1" id="muslim"value="Islam">Islam
+	  <input type="checkbox" name="c1" id="hindu"value="Hindu">Hindu
+	  </div><br></br>
+	  
+	  <div>
+	    <label for="department">Department:</label>
+		<select name="Department">
+			<option value="CSE">CSE</option>
+			<option value="EEE">EEE</option>
+			<option value="LLB">LLB</option>
+			<option value="BBA">BBA</option>
+		</select>
+	  </div> <br></br>
+	  
+	  <div>
+		<label for="message">Message:</label><br>
+		<textarea cols="30" rows="5"></textarea>
+	  </div>
+	  
+	  <div>
+		<input type="submit" value="OK">
+		<input type="reset" value="clear">
+		<input type="submit" value="Skip" disabled>
+	  </div>
+	  </form>
+	</body>
+</html>
